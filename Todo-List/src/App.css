@@ -79,8 +79,8 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
-  /* border: 1px solid #000000;
-  border-radius: 50px; */
+  border: 1px solid #000000;
+  border-radius: 50px;
   /* padding: 40px 50px; */
   padding-left: 30px;
   padding-top: 30px;
