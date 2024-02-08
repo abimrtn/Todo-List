@@ -140,16 +140,20 @@ const TodoList = () => {
 
 
             .task-container {
-              width: auto;
-              min-height: auto;
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: center;
-              align-items: center;
-              padding: 20px;
+                height: auto;
+                width: auto;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #ffffff;
+                border: 1px solid #000000;
+                border-radius: 50px;
+                /* padding: 40px 50px; */
+                padding-left: 30px;
+                padding-top: 30px;
+                margin: 50px;
             }
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: auto) {
               .header-todo {
                 width: 40%;
               }
