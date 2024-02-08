@@ -73,7 +73,7 @@
   text-align: center;
 }
 
-.task-container{
+.task-container {
   height: auto;
   width: auto;
   display: flex;
@@ -81,14 +81,21 @@
   background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 50px;
-  /* padding: 40px 50px; */
   padding-left: 30px;
   padding-top: 30px;
   margin: 50px;
 }
 
-.date-time{
-  height: auto;
+@media screen and (max-width: auto) {
+.header-todo {
+  width: 40%;
+}
+
+.date-time {
+  width: 40%;
+}
+
+.task-container {
   width: auto;
-  margin-top: 10px
+}
 }
