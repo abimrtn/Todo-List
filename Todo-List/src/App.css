@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to right, #5E1B89, #F4512C);
+  color: white;
+
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.header button {
+  background-color: white;
+  color: #ff5e62;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.card-container{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 0px #A5A5A5;
+}
+
+.card-wrapper{
+  width: 270px; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  max-width: 80px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  /* padding: 40px 50px; */
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 50px;
+}
