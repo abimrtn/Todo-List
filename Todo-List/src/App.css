@@ -86,3 +86,9 @@
   padding-top: 30px;
   margin: 50px;
 }
+
+.date-time{
+  height: auto;
+  width: auto;
+  margin-top: 10px;
+}
