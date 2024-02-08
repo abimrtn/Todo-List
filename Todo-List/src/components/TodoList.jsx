@@ -147,7 +147,6 @@ const TodoList = () => {
                 background-color: #ffffff;
                 border: 1px solid #000000;
                 border-radius: 50px;
-                /* padding: 40px 50px; */
                 padding-left: 30px;
                 padding-top: 30px;
                 margin: 50px;
@@ -181,7 +180,7 @@ const TodoList = () => {
             {taskList && taskList.map((obj , index) => <Card taskObj = {obj} index = {index} deleteTask = {deleteTask} updateListArray = {updateListArray}/> )}
             </div>
             <CreateTask toggle = {toggle} modal = {modal} save = {saveTask}/>
-            //         </>
+             </>
     );
 };
 
