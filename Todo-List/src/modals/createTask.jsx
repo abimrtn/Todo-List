@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import Button from 'react-bootstrap/Button';
 
 const CreateTaskPopup = ({ modal, toggle, save }) => {
   const [taskName, setTaskName] = useState('');
   const [description, setDescription] = useState('');
+
+  useEffect(() => {
+    if (!modal) {
+      setTaskName('');
+      setDescription('');
+    }
+  }, [modal]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

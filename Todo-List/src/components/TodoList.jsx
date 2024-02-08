@@ -62,7 +62,6 @@ const TodoList = () => {
       </style>
             <div className = "header text-center d-flex justify-content-between">
                 <div className = "date-time" >
-                {/* <img src="/logo2.png" alt="Logo" style={{ width: '50px', height: '50px', marginRight: "100px" }} /> */}
                 <p>{dateTime}</p>
                 </div>
                 <div className="header-todo">
