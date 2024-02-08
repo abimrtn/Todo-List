@@ -141,7 +141,7 @@ const TodoList = () => {
 
             .task-container {
               width: auto;
-              min-height: 80vh;
+              min-height: auto;
               display: flex;
               flex-wrap: wrap;
               justify-content: center;
@@ -159,7 +159,7 @@ const TodoList = () => {
               }
 
               .task-container {
-                width: 100%;
+                width: auto;
               }
             }
         `}
